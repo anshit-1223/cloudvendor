@@ -1,0 +1,8 @@
+#spring:
+#  datasource:
+#      url: jdbc:mysql://localhost:3306/cloud_vendor?createDatabaseIfNotExist=true
+#      username: root
+#      password:
+#
+#  jpa.hibernate.ddl_auto: update
+#  jpa.show_sql: true
