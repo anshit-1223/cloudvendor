@@ -1,7 +1,12 @@
 package com.orginazation.cloudvendor.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "cloud_vendor_info")
 public class CloudVendorModel {
 
+    @Id
     private String vendorId;
     private String vendorName;
     private String vendorAddress;
